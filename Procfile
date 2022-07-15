@@ -1,2 +1,1 @@
-python -m pip install .
-python -m uvicorn pretty_jupyter_server:app 
+web: uvicorn src.pretty_jupyter_server:app --host=0.0.0.0 --port=${PORT:-5000}

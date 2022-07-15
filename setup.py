@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name='pretty-jupyter-server',
     author="Jan Palasek",
-    version='0.1a',
+    version='1.0',
     description="Web server for Pretty Jupyter online demo.",
     long_description=long_description,
     long_description_content_type="text/markdown",

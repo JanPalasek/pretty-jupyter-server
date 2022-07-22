@@ -91,7 +91,7 @@ parso==0.8.3
     # via jedi
 pickleshare==0.7.5
     # via ipython
-pretty-jupyter==1.2.2
+pretty-jupyter==1.2.3
     # via -r requirements.in
 prompt-toolkit==3.0.30
     # via ipython
@@ -111,6 +111,8 @@ python-dateutil==2.8.2
     # via jupyter-client
 python-multipart==0.0.5
     # via -r requirements.in
+pywin32==304
+    # via jupyter-core
 pyzmq==23.2.0
     # via jupyter-client
 six==1.16.0

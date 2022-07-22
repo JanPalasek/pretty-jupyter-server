@@ -1,6 +1,11 @@
 # Pretty Jupyter Server
 
-It is a web server for a future online demo for [Pretty Jupyter](https://github.com/JanPalasek/pretty-jupyter).
+It is a web server for an online demo app for [Pretty Jupyter](https://github.com/JanPalasek/pretty-jupyter) package.
+
+The whole demo app consists of two parts:
+
+- Frontend: http://janpalasek.com/pretty-jupyter.html
+- Backend: https://pretty-jupyter.herokuapp.com/ (only REST API endpoint, no frontend)
 
 ## Installation
 
@@ -18,6 +23,6 @@ python -m uvicorn pretty_jupyter_server:app --reload
 
 ## Documentation
 
-The app is a very simple fastapi web application. It exposes only one endpoint:
+The app is a very simple FastAPI web application. It exposes only one endpoint:
 
-- `nbconvert`: As a parameter it expects a file.
+- `nbconvert`: POST only. As a parameter it expects an ipynb file.

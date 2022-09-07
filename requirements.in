@@ -1,4 +1,5 @@
 fastapi
 uvicorn
 python-multipart
-pretty-jupyter==2.0.1
+pretty-jupyter==2.0.2
+nbconvert==6.5.0
